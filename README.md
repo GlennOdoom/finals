@@ -1,6 +1,6 @@
-===============================================================================
+
 🌍 Twi Science LMS - An Intelligent Web-Based Science Learning Platform in Twi 🧪
-===============================================================================
+
 
 Author: Glenn Bartels Odoom  
 Institution: Ashesi University  
@@ -9,9 +9,7 @@ Degree Program: BSc Computer Science (2025)
 GitHub Repository:  
 https://github.com/GlennOdoom/finals
 
--------------------------------------------------------------------------------
 📝 PROJECT DESCRIPTION
--------------------------------------------------------------------------------
 
 Twi Science LMS is an intelligent educational web platform designed to address 
 the challenge of teaching science in English to Ghanaian primary and junior high 
@@ -24,10 +22,8 @@ Developed as part of a final year applied project, the platform targets
 learners in Grades 4–12 and seeks to improve comprehension and retention through 
 bilingual delivery, interactive learning tools, and student-teacher collaboration.
 
--------------------------------------------------------------------------------
-✨ FEATURES
--------------------------------------------------------------------------------
 
+✨ FEATURES
 **🔄 Real-Time Scientific Translation**
 The platform automatically translates scientific terms and content from English to Twi 
 using a trained neural machine translation model (Hugging Face M2M100). The system 
@@ -68,9 +64,7 @@ Role-based access via Firebase Auth provides appropriate permissions for student
 teachers, administrators, and linguists, ensuring data security and proper 
 access control throughout the system.
 
--------------------------------------------------------------------------------
 🏗️ SYSTEM ARCHITECTURE
--------------------------------------------------------------------------------
 
 Twi Science LMS is structured around a modular, scalable architecture:
 
@@ -99,10 +93,8 @@ provides accurate scientific terminology translations with context awareness.
 The application uses Firebase Hosting with CLI tools for primary deployment, 
 with compatibility for Vercel and Netlify as alternative static site deployment options.
 
--------------------------------------------------------------------------------
-💻 SYSTEM REQUIREMENTS
--------------------------------------------------------------------------------
 
+💻 SYSTEM REQUIREMENTS
 To install and run the system locally, ensure you have the following:
 
 Node.js (v16 or newer)
@@ -112,9 +104,7 @@ Firebase CLI (npm install -g firebase-tools)
 Internet connection for fetching model APIs
 Modern Web Browser (e.g., Chrome, Firefox)
 
--------------------------------------------------------------------------------
 🔧 INSTALLATION INSTRUCTIONS (LOCAL DEVELOPMENT)
--------------------------------------------------------------------------------
 
 1. Clone the GitHub repository:
 
@@ -140,9 +130,8 @@ npm run dev
 
 Visit http://localhost:5173 in your browser to begin using the application.
 
--------------------------------------------------------------------------------
+
 👩‍💻 USAGE
--------------------------------------------------------------------------------
 
 **👨‍🎓 Student Experience**
 Students log in to access lessons in Twi and English, take quizzes, and track their 
@@ -164,9 +153,7 @@ Language specialists can review and moderate Twi translations for accuracy,
 cultural relevance, and educational clarity. This oversight ensures that scientific 
 concepts are correctly represented in both languages.
 
--------------------------------------------------------------------------------
 🧮 ALGORITHMS
--------------------------------------------------------------------------------
 
 **🔄 Translation Algorithm**
 Text is tokenized and passed to the Hugging Face API (facebook/m2m100_418M). The 
@@ -183,9 +170,7 @@ The platform implements client-side chart libraries to visualize student progres
 through multidimensional metrics. The tracking system monitors scores, participation 
 frequency, and quiz success rates to generate comprehensive learning profiles.
 
--------------------------------------------------------------------------------
 🛠️ TECHNOLOGIES USED
--------------------------------------------------------------------------------
 
 **⚛️ Frontend Development**
 React.js and TypeScript form the foundation of the user interface, with Vite providing 
@@ -212,9 +197,8 @@ Jest handles unit testing of individual components and functions. React Testing 
 verifies user interface behavior and rendering. Cypress conducts end-to-end testing to 
 ensure complete system functionality.
 
--------------------------------------------------------------------------------
+
 🚀 DEPLOYMENT INSTRUCTIONS
--------------------------------------------------------------------------------
 
 To deploy to Firebase Hosting:
 
@@ -241,9 +225,8 @@ firebase deploy
 
 Alternative: Upload the dist/ folder to Netlify or Vercel for static hosting.
 
--------------------------------------------------------------------------------
+
 🔒 FIREBASE SECURITY RULES (RECOMMENDED)
--------------------------------------------------------------------------------
 
 rules_version = '2';
 service cloud.firestore {
@@ -264,9 +247,7 @@ service cloud.firestore {
   }
 }
 
--------------------------------------------------------------------------------
 📚 INCLUDED DOCUMENTATION
--------------------------------------------------------------------------------
 
 README.txt               : This file with setup and deployment instructions
 lessonService.ts         : Manages lesson creation and updates
