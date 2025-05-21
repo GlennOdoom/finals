@@ -1,5 +1,5 @@
 class TranslationService {
-  private static readonly HF_API_URL = 'https://d6577916acbc574032.gradio.live/api/predict';
+  private static readonly HF_API_URL = 'https://780dcb8ddf3fc2e2be.gradio.live/api/predict';
 
   private static modelLoaded = false;
 
