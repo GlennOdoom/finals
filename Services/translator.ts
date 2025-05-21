@@ -1,5 +1,5 @@
 class TranslationService {
-  private static readonly HF_API_URL = 'https://science-word-twi-schneezy.hf.space/run/predict';
+  private static readonly HF_API_URL = 'https://d6577916acbc574032.gradio.live/api/predict';
 
   private static modelLoaded = false;
 
