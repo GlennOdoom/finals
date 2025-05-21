@@ -11,6 +11,8 @@ To run or test the project, follow the instructions in the main code files or do
 
 ## 🧑🏽‍💻 Author
 **Glenn Bartels Odoom**
+GitHub Repository: https://github.com/GlennOdoom/finals
+
 
 ---
 
